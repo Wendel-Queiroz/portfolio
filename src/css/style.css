@@ -1,3 +1,7 @@
+a{
+    color: #FFD700;
+}
+
 html {
     scroll-behavior: smooth;
     color: white;
@@ -5,6 +9,7 @@ html {
 
 body {
     background: linear-gradient(150deg, #000000, #9e00ff);
+    background: linear-gradient(150deg, #FF3D3D, #FFE082);
     font-family: "popins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
@@ -18,10 +23,10 @@ body {
 }
 
 .cabecalho .logo {
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid #F5F5F5;
     text-decoration: underline;
     text-align: center;
     line-height: 55px;
@@ -30,8 +35,8 @@ body {
 }
 
 .cabecalho .logo:hover {
-    color: #9443d8;
-    border: 2px solid #9443d8;
+    color: #00FFFF;
+    border: 2px solid #00FFFF;
 }
 
 .cabecalho .menu ul {}
@@ -43,8 +48,8 @@ body {
 }
 
 .cabecalho .menu ul li a:hover {
-    background-color: #9443d8;
-    color: white;
+    background-color: #00FFFF;
+    color: #F5F5F5;
     border-radius: 50px;
 }
 
@@ -84,7 +89,7 @@ body {
 }
 
 .home .redes-sociais a i {
-    border: 1px solid white;
+    border: 1px solid #F5F5F5;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -95,8 +100,8 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #9443d8;
-    border: 1px solid #9443d8;
+    color: #00FFFF;
+    border: 1px solid #00FFFF;
     transform: scale(1.1);
 }
 
@@ -105,15 +110,25 @@ body {
     border-radius: 50%;
 }
 
+/* .home .container-foto{
+    display: flex;
+} */
+
 .home .container-foto img {
     width: 100%;
     border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translateX(17%);
+    margin-top: 12%;
 }
 
 .home .foto.sombra-interna {
-    background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+    background: linear-gradient(to right, #E62E2E, #FFD700, #ECF0F1 );
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
+    width: 400px;
+    height: 400px;
 }
 
 .projetos {
