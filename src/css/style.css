@@ -133,7 +133,7 @@ body {
 
 .projetos {
     padding: 70px 0;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .projetos .titulo {
